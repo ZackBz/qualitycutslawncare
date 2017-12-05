@@ -1,11 +1,7 @@
 <template lang="html">
   <div>
     <section>
-      <div class="body--giant blue">
-        <div class="center">
-          <h3 class="margin-03 margin-left-0">Banner</h3>
-          <p>Default size</p>
-        </div>
+        <div class="body--giant blue noTiles" style="background-image: url('/images/grass.jpg')" ref="slide">
       </div>
     </section>
 
@@ -32,12 +28,43 @@
         </div>
       </div>
     </div>
+
+    <!-- <img name="slide" width="400" height="200"> -->
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      current: 1,
+      images: []
+    }
+  },
+  methods: {
+    changeImg () {
+      this.$refs.slide.style['background-image'] = 'url(' + this.images[this.current % this.images.length] + ')'
+      this.current += 1
+    }
+  },
+  mounted () {
+    // images
+    this.images[0] = '/images/grass.jpg'
+    this.images[1] = '/images/lawnmower.jpg'
+    this.images[2] = '/images/grass2.jpg'
+    this.images[3] = '/images/grass3.jpg'
+    this.images[4] = '/images/grass4.jpg'
+
+    // interval for image switch
+    window.setInterval(this.changeImg, 3000)
+  }
+}
 </script>
 
 <style lang="css">
+.noTiles {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 </style>
