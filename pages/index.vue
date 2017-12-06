@@ -1,10 +1,6 @@
 <template lang="html">
   <div>
-    <section>
-        <div class="body--giant blue noTiles" style="background-image: url('/images/grass.jpg')" ref="slide">
-      </div>
-    </section>
-
+    <slide-show seconds="6" images="/images/grass.jpg /images/lawnmower.jpg /images/grass2.jpg"/>
     <div class="columns">
       <div class="column">
           <div class="card">
@@ -42,7 +38,11 @@
 </template>
 
 <script>
+import SlideShow from '~/components/SlideShow.vue'
 export default {
+  components: {
+    SlideShow
+  },
   data () {
     return {
       current: 1,
@@ -70,9 +70,5 @@ export default {
 </script>
 
 <style lang="css">
-.noTiles {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 </style>
