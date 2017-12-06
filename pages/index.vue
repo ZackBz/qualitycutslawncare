@@ -6,23 +6,31 @@
     </section>
 
     <div class="columns">
-      <div class="column width-tablet-5">
-          <div class="card red">
-              <p>I am a column</p>
+      <div class="column">
+          <div class="card">
+              <img src="/images/leavesongrass.jpg" width="500rem" height="500rem">
           </div>
-      </div>
-      <div class="column width-phone-2">
-        <div class="card yellow">
-            <p>I am </p>
-        </div>
       </div>
 
       <div class="column width-phone-2">
         <section>
-          <div class="body--large">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="body--large card" id="lawncare">
+            <p>We are committed to enhancing our clients’ most important investment by exceeding their lawn service needs with reliability and value. Imagine quality family time, rest and relaxation, and leaving the dirty work up to us. Your business is just as important as ours. Like any other turf, the lawn around your business requires attention and service. Our flexibility and ability to customize a lawn care program for your property allows your business to make a great first impression.</p>
+
+            <h1>OUR SERVICES</h1>
+            <hr>
+
+            <ul>
+              <li>WEED CONTROL</li>
+              <li>DE-THATCHING</li>
+              <li>CORE AERATION TREATMENT</li>
+              <li>EDGING</li>
+              <li>FERTILIZATION</li>
+              <li>POWER WASHING</li>
+            </ul>
           </div>
         </section>
+
         <div class="card purple">
             <p>I am </p>
         </div>

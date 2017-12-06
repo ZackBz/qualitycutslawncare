@@ -4,13 +4,13 @@
     <nav class="header green">
 
       <div class="left">
-        <a href="#" class="width-phablet-12"><h4 class="margin-0">Quality Cuts Lawn Care</h4></a>
+        <a href="/" class="width-phablet-12"><h4 class="margin-0">Quality Cuts Lawn Care</h4></a>
       </div>
 
       <div class="center">
-        <a href="#" class="width-phablet-12">Home</a>
-        <a href="#" class="width-phablet-12">Contact</a>
-        <a href="#" class="width-phablet-12 right">About</a>
+        <a href="#lawncare" class="width-phablet-12">LAWN CARE</a>
+        <a href="contact" class="width-phablet-12">CONTACT</a>
+        <a href="about" class="width-phablet-12 right">ABOUT</a>
       </div>
     </nav>
     </section>
