@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "laravel-mix": "^1.6.2",
-    "nuxt": "^1.0.0-rc11",
-    "squidcss": "0.0.1"
+    "nuxt": "^1.0.0-rc9",
+    "squidcss": "0.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

@@ -1,7 +1,28 @@
 <template lang="html">
   <section>
-      <div id="slideshow-backdrop"></div>
-      <div :class="['body--giant', 'image', {hidden: index  !== current % imgs.length}]" :style="`background-image: url(${i})`" v-for="(i, index) in imgs" ></div>
+      <div id="slideshow-backdrop">
+
+        <div class="center width-6" >
+          <h1 class="title">Quality Cuts Lawn Care</h1>
+          <h4>Est. 2017</h4>
+        </div>
+
+        <!-- <div class="center" v-if="current % images.length === 1">
+          <h1>hello asdf</h1>
+        </div>
+
+        <div class="center" v-if="current % images.length === 2">
+          <h1>asdf asdf</h1>
+        </div>
+
+        <div class="center" v-if="current % images.length === 3">
+          <h1>asdf world</h1>
+        </div> -->
+      </div>
+      <div :class="['body--giant', 'image', {hidden: index  !== current % images.length}]" :style="`background-image: url(${i})`" v-for="(i, index) in images" >
+
+
+      </div>
   </section>
 </template>
 
@@ -10,12 +31,7 @@ export default {
   props: ['images', 'seconds'],
   data () {
     return {
-      current: 1
-    }
-  },
-  computed: {
-    imgs () {
-      return this.images.split(' ')
+      current: 0
     }
   },
   methods: {
@@ -46,7 +62,7 @@ export default {
   background-attachment: fixed;
   opacity: 1;
   transition: opacity 2s ease-in-out;
-  display: block;
+  z-index: -1;
   &.hidden {
     opacity: 0;
   }
@@ -54,6 +70,14 @@ export default {
 #slideshow-backdrop {
   display: block;
   height: calc(100vh - 80px);
-  background: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  text-shadow: 0 2px black;
 }
+
+
 </style>

@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <slide-show seconds="6" images="/images/grass.jpg /images/lawnmower.jpg /images/grass2.jpg"/>
+    <slide-show seconds="6" :images="['/images/grass.jpg', '/images/lawnmower.jpg', '/images/grass2.jpg']"/>
     <div class="columns">
       <div class="column">
           <div class="card">

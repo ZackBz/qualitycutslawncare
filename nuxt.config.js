@@ -36,6 +36,6 @@ module.exports = {
     }
   },
   css: [
-    { src: 'squidcss/dist/css/app.css', lang: 'css'}
+    { src: 'squidcss/src/scss/app.scss', lang: 'scss'}
   ]
 }

@@ -26,6 +26,7 @@ let store
 
 // Try to rehydrate SSR data from window
 const NUXT = window.__NUXT__ || {}
+NUXT.components = window.__COMPONENTS__ || null
 
 
 // Setup global Vue error handler
@@ -131,14 +132,6 @@ async function loadAsyncComponents (to, from, next) {
   }
 }
 
-function applySSRData(Component, ssrData) {
-  if (NUXT.serverRendered && ssrData) {
-    applyAsyncData(Component, ssrData)
-  }
-  Component._Ctor = Component
-  return Component
-}
-
 // Get matched components
 function resolveComponents(router) {
   const path = getLocation(router.options.base, router.options.mode)
@@ -146,16 +139,23 @@ function resolveComponents(router) {
   return flatMapComponents(router.match(path), (Component, _, match, key, index) => {
     // If component already resolved
     if (typeof Component !== 'function' || Component.options) {
-      const _Component = applySSRData(sanitizeComponent(Component), NUXT.data ? NUXT.data[index] : null)
+      const _Component = sanitizeComponent(Component)
       match.components[key] = _Component
       return _Component
     }
 
     // Resolve component
     return Component().then(Component => {
-      const _Component = applySSRData(sanitizeComponent(Component), NUXT.data ? NUXT.data[index] : null)
-      match.components[key] = _Component
-      return _Component
+        const _Component = sanitizeComponent(Component)
+        if (NUXT.serverRendered) {
+          applyAsyncData(_Component, NUXT.data[index])
+          if (NUXT.components) {
+            Component.options.components = Object.assign(_Component.options.components, NUXT.components[index])
+          }
+          _Component._Ctor = _Component
+        }
+        match.components[key] = _Component
+        return _Component
     })
   })
 }
