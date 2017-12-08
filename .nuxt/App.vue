@@ -9,7 +9,7 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '../node_modules/squidcss/src/scss/app.scss'
+import '../node_modules/bulma/bulma.sass'
 
 
 let layouts = {

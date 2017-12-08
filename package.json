@@ -13,16 +13,10 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.0.0",
-    "@fortawesome/fontawesome-free-brands": "^5.0.0",
-    "@fortawesome/fontawesome-free-solid": "^5.0.0",
-    "@fortawesome/fontawesome-pro-light": "^5.0.0",
-    "@fortawesome/fontawesome-pro-regular": "^5.0.0",
-    "@fortawesome/fontawesome-pro-solid": "^5.0.0",
-    "@fortawesome/vue-fontawesome": "0.0.21",
+    "bulma": "^0.6.1",
     "laravel-mix": "^1.6.2",
     "nuxt": "^1.0.0-rc9",
-    "squidcss": "0.0.4"
+    "squidcss": "0.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

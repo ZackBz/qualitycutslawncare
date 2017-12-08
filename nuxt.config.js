@@ -38,6 +38,6 @@ module.exports = {
     }
   },
   css: [
-    { src: 'squidcss/src/scss/app.scss', lang: 'scss'}
+    { src: 'bulma/bulma.sass', lang: 'sass'}
   ]
 }
