@@ -36,10 +36,10 @@ export default {
   },
   methods: {
     resize () {
-      console.log('hey')
+      var slideshow = document.getElementById('slideshow-backdrop')
       let h = window.innerHeight
-      this.$refs.slide.style.height = (h - window.navHeight) + 'px'
-      document.getElementById('slideshow-backdrop').style.height = (h - window.navHeight) + 'px'
+      slideshow.style.height = (h - window.navHeight) + 'px'
+      slideshow.style.height = (h - window.navHeight) + 'px'
     }
   },
   mounted () {

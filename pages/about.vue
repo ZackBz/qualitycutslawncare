@@ -1,5 +1,8 @@
 <template lang="html">
-  <h1>Does this work</h1>
+  <div>
+    <h1>Does this work</h1>
+    <i class="fas fa-users"></i>
+  </div>
 </template>
 
 <script>
