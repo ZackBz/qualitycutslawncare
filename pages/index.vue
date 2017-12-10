@@ -6,9 +6,11 @@
       <!-- <div class="column is-three-fifths image is-hidden-touch"></div> -->
 
         <div class="column is-two-fifths is-hidden-touch parallax" style="background: url('/images/leavesongrass.jpg')"></div>
-        <div class="column is-three-fifths is-full-touch text center">
-          <div class="is-size-2 has-text-weight-bold">About</div>
-          <p class="is-size-5 max">We are committed to enhancing our clients’ most important investment by exceeding their lawn service needs with reliability and value. Imagine quality family time, rest and relaxation, and leaving the dirty work up to us. Your business is just as important as ours. Like any other turf, the lawn around your business requires attention and service. Our flexibility and ability to customize a lawn care program for your property allows your business to make a great first impression.</p>
+        <div class="column is-three-fifths is-full-touch text has-text-centered">
+          <div id="about-text" class="has-text-left is-inline-block">
+            <div class="is-size-2 has-text-weight-bold">About</div>
+            <p class="is-size-5">We are committed to enhancing our clients’ most important investment by exceeding their lawn service needs with reliability and value. Imagine quality family time, rest and relaxation, and leaving the dirty work up to us. Your business is just as important as ours. Like any other turf, the lawn around your business requires attention and service. Our flexibility and ability to customize a lawn care program for your property allows your business to make a great first impression.</p>
+          </div>
           <div class="is-full is-hidden-desktop image" id="about-touch-image" style="background: url('/images/leavesongrass.jpg')"></div>
         </div>
     </div>
@@ -69,7 +71,10 @@ export default {
   height: 5rem;
 }
 
-.max {
-  max-width: 300px;
+#about-text {
+  max-width: 600px;
+  line-height: 2.5rem;
+  display: inline-block;
+  text-align: left;
 }
 </style>
