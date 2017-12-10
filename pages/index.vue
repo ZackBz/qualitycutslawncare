@@ -2,9 +2,10 @@
   <div>
     <slide-show seconds="6" :images="['/images/grass.jpg', '/images/lawnmower.jpg', '/images/grass2.jpg']"/>
 
+
+    <!-- Half and half RIGHT-->
     <div class="columns" >
       <!-- <div class="column is-three-fifths image is-hidden-touch"></div> -->
-
         <div class="column is-two-fifths is-hidden-touch parallax" style="background: url('/images/leavesongrass.jpg')"></div>
         <div class="column is-three-fifths is-full-touch text has-text-centered">
           <div id="about-text" class="has-text-left is-inline-block">
@@ -15,13 +16,14 @@
         </div>
     </div>
 
+    <!-- Full width -->
     <div class="columns">
       <div class="column is-desktop text" style="background-image: url('/images/drone.jpg');">
         <div id="services" class="column is-half">
           <div class="is-size-2 has-text-weight-bold">Services</div>
           <ul class="icons is-size-5">
             <li><i class="far fa-check margin-right-05"></i>WEED CONTROL</li>
-            <li><i class="far fa-check margin-right-05"></i>DE-ThATCHING</li>
+            <li><i class="far fa-check margin-right-05"></i>DE-THATCHING</li>
             <li><i class="far fa-check margin-right-05"></i>EDGING</li>
             <li><i class="far fa-check margin-right-05"></i>POWER WASHING</li>
             <li><i class="far fa-check margin-right-05"></i>FERTILIZATION</li>
@@ -30,15 +32,35 @@
       </div>
     </div>
 
+    <!-- Half and half LEFT -->
       <div class="columns">
         <div class="column is-three-fifths is-full-touch text">
-          <div class="is-size-2 has-text-weight-bold">section</div>
-          <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="is-size-2 has-text-weight-bold">Landscaping</div>
+          <h1 class="is-size-3">Flower Bed & Landscaping Maintenance</h1>
+          <p class="is-size-5">Our goal is to keep any flower beds or landscaping healthy, clean, safe and attractive. Proper care will keep your flowers, shrubs and bushes as fresh as the day you planted them.</p>
 
-          <div class="is-full is-hidden-desktop image" style="background: url('/images/leavesongrass.jpg')"></div>
+          <h1 class="is-size-3">Mulch & Decorative Rock Installation</h1>
+          <p class="is-size-5">Let us shovel it for you! Take back your weekend and let Dunner's install the mulch or decorative rock of your choice.</p>
+
+          <!-- <div class="is-full is-hidden-desktop image" style="background: url('/images/gardening.jpg')"></div> -->
         </div>
-        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/leavesongrass.jpg')"></div>
+        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/gardening2.jpg')">
+          <div id="services" class="column is-half">
+            <div class="is-size-2 has-text-weight-bold"><a href="#">Gallery</a></div>
+          </div>
+        </div>
       </div>
+
+      <div class="columns">
+        <div class="column is-fullhd is-full-touch text">
+          <h1 class="is-size-1 has-text-weight-bold has-text-centered">Spring & Fall Clean Up</h1>
+          <div  id="cleanup" class="has-text-centered">
+            <p>We have the ability to rake or blow to remove leaves and grass clippings from your lawn, landscaping or flower beds in the spring or fall seasons.</p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </template>
@@ -76,5 +98,10 @@ export default {
   line-height: 2.5rem;
   display: inline-block;
   text-align: left;
+}
+
+#cleanup {
+  line-height: 2.5rem;
+  width: 600px;
 }
 </style>
