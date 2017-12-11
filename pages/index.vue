@@ -9,7 +9,8 @@
         <div class="column is-two-fifths is-hidden-touch parallax" style="background: url('/images/leavesongrass.jpg')"></div>
         <div class="column is-three-fifths is-full-touch text has-text-centered">
           <div id="about-text" class="has-text-left is-inline-block">
-            <div class="is-size-2 has-text-weight-bold">About</div>
+            <div class="is-size-1 has-text-weight-bold">About</div>
+            <br>
             <p class="is-size-5">We are committed to enhancing our clients’ most important investment by exceeding their lawn service needs with reliability and value. Imagine quality family time, rest and relaxation, and leaving the dirty work up to us. Your business is just as important as ours. Like any other turf, the lawn around your business requires attention and service. Our flexibility and ability to customize a lawn care program for your property allows your business to make a great first impression.</p>
           </div>
           <div class="is-full is-hidden-desktop image" id="about-touch-image" style="background: url('/images/leavesongrass.jpg')"></div>
@@ -20,7 +21,7 @@
     <div class="columns">
       <div class="column is-desktop text" style="background-image: url('/images/drone.jpg');">
         <div id="services" class="column is-half">
-          <div class="is-size-2 has-text-weight-bold">Services</div>
+          <div class="is-size-1 has-text-weight-bold">Services</div>
           <ul class="icons is-size-5">
             <li><i class="far fa-check margin-right-05"></i>WEED CONTROL</li>
             <li><i class="far fa-check margin-right-05"></i>DE-THATCHING</li>
@@ -34,27 +35,25 @@
 
     <!-- Half and half LEFT -->
       <div class="columns">
-        <div class="column is-three-fifths is-full-touch text">
-          <div class="is-size-2 has-text-weight-bold">Landscaping</div>
-          <h1 class="is-size-3">Flower Bed & Landscaping Maintenance</h1>
-          <p class="is-size-5">Our goal is to keep any flower beds or landscaping healthy, clean, safe and attractive. Proper care will keep your flowers, shrubs and bushes as fresh as the day you planted them.</p>
-
-          <h1 class="is-size-3">Mulch & Decorative Rock Installation</h1>
-          <p class="is-size-5">Let us shovel it for you! Take back your weekend and let Dunner's install the mulch or decorative rock of your choice.</p>
-
-          <!-- <div class="is-full is-hidden-desktop image" style="background: url('/images/gardening.jpg')"></div> -->
-        </div>
-        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/gardening2.jpg')">
-          <div id="services" class="column is-half">
-            <div class="is-size-2 has-text-weight-bold"><a href="#">Gallery</a></div>
+        <div class="column is-three-fifths is-full-touch text has-text-centered">
+          <div id="landscaping-text" class="has-text-left is-inline-block">
+            <div class="is-size-1 has-text-weight-bold">Landscaping</div>
+            <br>
+            <div class="has-text-weight-bold is-size-4">Flower Bed & Landscaping Maintenance</div>
+            <p class="is-size-5">Our goal is to keep any flower beds or landscaping healthy, clean, safe and attractive. Proper care will keep your flowers, shrubs and bushes as fresh as the day you planted them.</p>
+            <br>
+            <div class="has-text-weight-bold is-size-4">Mulch & Decorative Rock Installation</div>
+            <p class="is-size-5">Let us shovel it for you! Take back your weekend and let Dunner's install the mulch or decorative rock of your choice.</p>
           </div>
+          <div class="is-full is-hidden-desktop image" style="background: url('/images/gardening2.jpg')"></div>
         </div>
+        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/gardening2.jpg')"></div>
       </div>
 
       <div class="columns">
-        <div class="column is-fullhd is-full-touch text">
-          <h1 class="is-size-1 has-text-weight-bold has-text-centered">Spring & Fall Clean Up</h1>
-          <div  id="cleanup" class="has-text-centered">
+        <div class="column text has-text-centered">
+          <h1 class="is-size-1 has-text-weight-bold">Spring & Fall Clean Up</h1>
+          <div  id="cleanup" class="is-inline-block">
             <p>We have the ability to rake or blow to remove leaves and grass clippings from your lawn, landscaping or flower beds in the spring or fall seasons.</p>
           </div>
         </div>
@@ -93,7 +92,7 @@ export default {
   height: 5rem;
 }
 
-#about-text {
+#about-text, #landscaping-text {
   max-width: 600px;
   line-height: 2.5rem;
   display: inline-block;
