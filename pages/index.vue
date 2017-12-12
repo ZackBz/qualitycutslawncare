@@ -4,7 +4,7 @@
 
 
     <!-- Half and half RIGHT-->
-    <div class="columns" >
+    <div id="about" class="columns" >
       <!-- <div class="column is-three-fifths image is-hidden-touch"></div> -->
         <div class="column is-two-fifths is-hidden-touch parallax" style="background: url('/images/leavesongrass.jpg')"></div>
         <div class="column is-three-fifths is-full-touch text has-text-centered">
@@ -18,7 +18,7 @@
     </div>
 
     <!-- Full width -->
-    <div class="columns">
+    <div id="services-section" class="columns">
       <div class="column is-desktop text" style="background-image: url('/images/drone.jpg');">
         <div id="services" class="column is-half">
           <div class="is-size-1 has-text-weight-bold">Services</div>
@@ -56,7 +56,9 @@
           <div  id="cleanup" class="is-inline-block">
             <p>We have the ability to rake or blow to remove leaves and grass clippings from your lawn, landscaping or flower beds in the spring or fall seasons.</p>
           </div>
+            <div class="is-full is-hidden-desktop image" style="background: url('/images/gardening2.jpg')"></div>
         </div>
+        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/flowersandgrass.jpg')"></div>
       </div>
 
 

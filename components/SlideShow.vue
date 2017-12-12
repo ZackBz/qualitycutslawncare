@@ -17,10 +17,10 @@
           <input type="checkbox" id="nav-toggle-state" />
           <div id="mobileMenu" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item">
+              <a href="#about" class="navbar-item">
                 About
               </a>
-              <a class="navbar-item">
+              <a href="#services-section" class="navbar-item">
                 Services
               </a>
               <a class="navbar-item">
