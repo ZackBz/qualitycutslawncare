@@ -5,8 +5,8 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item">
-              <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+            <a href="/" class="navbar-item">
+              <h1 class="is-size-1 has-text-weight-bold" >Quality Cuts Lawn Care</h1>
             </a>
             <label class="navbar-burger burger" for="nav-toggle-state">
               <span></span>
@@ -24,12 +24,12 @@
                 Services
               </a>
               <a class="navbar-item">
-                Showcase
+                Gallery
               </a>
               <a class="navbar-item">
-                Clients
+                Reviews
               </a>
-              <a class="navbar-item">
+              <a href="/contact" class="navbar-item">
                 Contact
               </a>
             </div>
