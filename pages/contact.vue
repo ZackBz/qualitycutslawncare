@@ -1,4 +1,5 @@
 <template lang="html">
+  <section class="hero is-success is-fullheight">
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
@@ -35,6 +36,7 @@
       </div>
     </nav>
   </div>
+</section>
 </template>
 
 <script>
@@ -42,5 +44,16 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss" scoped>
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked ~ #mobileMenu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  text-align: right;
+}
 </style>

@@ -6,7 +6,7 @@
     <!-- ABOUT -->
     <div id="about" class="columns" >
       <!-- <div class="column is-three-fifths image is-hidden-touch"></div> -->
-        <div class="column is-two-fifths is-hidden-touch parallax" style="background: url('/images/leavesongrass.jpg')"></div>
+        <div class="column is-two-fifths is-hidden-touch" style="background-image: url('/images/leavesongrass.jpg')"></div>
         <div class="column is-three-fifths is-full-touch text has-text-centered">
           <div id="about-text" class="has-text-left is-inline-block">
             <div class="is-size-1 has-text-weight-bold">About</div>
@@ -14,13 +14,13 @@
             <p class="is-size-5">Quality Cuts Lawn Care provides full service lawn care to both commercial and residential customers in Sayre, Waverly, Athens and surrounding areas. Quality Cuts is fully registered, insured
             and qualified to serve you. Several referances are availabe upon request!</p>
           </div>
-          <div class="is-full is-hidden-desktop image" id="about-touch-image" style="background: url('/images/leavesongrass.jpg')"></div>
+          <div class="is-full is-hidden-desktop image" id="about-touch-image" style="background-image: url('/images/leavesongrass.jpg')"></div>
         </div>
     </div>
 
     <!-- SERVICES -->
     <div id="services-section" class="columns">
-      <div class="column is-desktop text" style="background-image: url('/images/drone.jpg');">
+      <div class="column is-desktop text parallax" style="background-image: url('/images/drone.jpg');">
         <div id="services" class="column is-half">
           <div class="is-size-1 has-text-weight-bold">Services</div>
           <ul class="icons is-size-5">
@@ -46,23 +46,51 @@
             <div class="has-text-weight-bold is-size-4">Fertilization</div>
             <p class="is-size-5">All lawns need nutrients to survive and look thier best and sometimes they need a little help to get them, let Quality Cuts take care of you Lawn fertilization needs.</p>
           </div>
-          <div class="is-full is-hidden-desktop image" style="background: url('/images/lawn.png')"></div>
+          <div class="is-full is-hidden-desktop image" style="background-image: url('/images/lawn.png')"></div>
         </div>
-        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/lawn.png')"></div>
+        <div class="column is-two-fifths is-hidden-touch image" style="background-image: url('/images/lawn.png')"></div>
+      </div>
+
+      <div id="services-section" class="columns">
+        <div class="column is-desktop text parallax" style="background-image: url('/images/drone.jpg');">
+          <div id="services" class="column is-half">
+            <div class="is-size-1 has-text-weight-bold">Services</div>
+            <ul class="icons is-size-5">
+              <li><i class="far fa-check margin-right-05"></i><a href="#lawn">Lawn Mowing</a></li>
+              <li><i class="far fa-check margin-right-05"></i><a href="#mulch">Mulch/Stone Delivery</a></li>
+              <li><i class="far fa-check margin-right-05"></i><a href="#snow">Snow Removal</a></li>
+              <li><i class="far fa-check margin-right-05"></i><a href="#springfall">Spring/Fall clean up</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <!-- MULCH -->
       <div id="mulch" class="columns" >
         <!-- <div class="column is-three-fifths image is-hidden-touch"></div> -->
-          <div class="column is-two-fifths is-hidden-touch parallax" style="background: url('/images/mulch.png')"></div>
+          <div class="column is-two-fifths is-hidden-touch image" style="background-image: url('/images/mulch.png')"></div>
           <div class="column is-three-fifths is-full-touch text has-text-centered">
             <div id="mulch-text" class="has-text-left is-inline-block">
               <div class="is-size-1 has-text-weight-bold">Mulch/Stone Delivery</div>
               <br>
-              <p class="is-size-5">Let us shovel it for you! Take back your weekend and let Quality Cuts deliver install the mulch or decorative rock of your choice.</p>
+              <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="is-full is-hidden-desktop image" id="mulch-touch-image" style="background: url('/images/mulch.png')"></div>
+            <div class="is-full is-hidden-desktop image" id="mulch-touch-image" style="background-image: url('/images/mulch.png')"></div>
           </div>
+      </div>
+
+      <div id="services-section" class="columns">
+        <div class="column is-desktop text parallax" style="background-image: url('/images/drone.jpg');">
+          <div id="services" class="column is-half">
+            <div class="is-size-1 has-text-weight-bold">Services</div>
+            <ul class="icons is-size-5">
+              <li><i class="far fa-check margin-right-05"></i><a href="#lawn">Lawn Mowing</a></li>
+              <li><i class="far fa-check margin-right-05"></i><a href="#mulch">Mulch/Stone Delivery</a></li>
+              <li><i class="far fa-check margin-right-05"></i><a href="#snow">Snow Removal</a></li>
+              <li><i class="far fa-check margin-right-05"></i><a href="#springfall">Spring/Fall clean up</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <!-- SNOW -->
@@ -73,9 +101,9 @@
             <br>
             <p class="is-size-5">Servicing commercial and residential properties, we will keep your driveway, parking lot, sidewalks and steps clear of snow and ice.</p>
           </div>
-          <div class="is-full is-hidden-desktop image" style="background: url('/images/lawn.png')"></div>
+          <div class="is-full is-hidden-desktop image" style="background-image: url('/images/lawn.png')"></div>
         </div>
-        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/lawn.png')"></div>
+        <div class="column is-two-fifths is-hidden-touch image" style="background-image: url('/images/lawn.png')"></div>
       </div>
 
       <div id="springfall" class="columns">
@@ -84,12 +112,10 @@
           <div  id="cleanup" class="is-inline-block">
             <p class="is-size-5" >Let Quality Cuts take care of all your spring and fall clean up needs. Services include but are certainly not limited to: leaf collection and take away, gutter clean out, lawn debris clean up,
               trash take away and power washing. please dont hesitate to ask about any other services that are not listed!
-
+              <img src="/images/flowersandgrass.jpg" alt="">
             </p>
           </div>
-            <div class="is-full is-hidden-desktop image" style="background: url('/images/gardening2.jpg')"></div>
         </div>
-        <div class="column is-two-fifths is-hidden-touch" style="background: url('/images/flowersandgrass.jpg')"></div>
       </div>
 
 
@@ -109,7 +135,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.image { min-height: 40vh;}
+.image { min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .opaque { margin: auto; background: rgba(0,0,0,0.35)}
 .columns {
   margin-top: 0;
