@@ -10,9 +10,13 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href:'/fontawesome-all.min.css'},
-      { rel: 'stylesheet', href:'/fontawesome.min.css'}
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'stylesheet', href: '/fontawesome-all.min.css'},
+      {rel: 'stylesheet', href: '/fontawesome.min.css'}
+    ],
+    script: [
+      {src: '/jquery-3.2.1.min.js'},
+      {src: '/global.js'}
     ]
   },
   /*
@@ -38,6 +42,6 @@ module.exports = {
     }
   },
   css: [
-    { src: 'bulma/bulma.sass', lang: 'sass'}
+    {src: 'bulma/bulma.sass', lang: 'sass'}
   ]
 }

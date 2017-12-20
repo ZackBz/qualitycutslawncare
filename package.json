@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "bulma": "^0.6.1",
+    "jquery": "^3.2.1",
     "laravel-mix": "^1.6.2",
     "nuxt": "^1.0.0-rc9",
     "squidcss": "0.0.5"

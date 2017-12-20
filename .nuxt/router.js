@@ -3,8 +3,9 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _a7e5c6b0 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
-const _62edad14 = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
+const _3f0f2644 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _98481594 = () => import('../pages/test.vue' /* webpackChunkName: "pages/test" */).then(m => m.default || m)
+const _d53d77a8 = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
 
 
 
@@ -42,12 +43,17 @@ export function createRouter () {
     routes: [
 		{
 			path: "/",
-			component: _a7e5c6b0,
+			component: _3f0f2644,
 			name: "index"
 		},
 		{
+			path: "/test",
+			component: _98481594,
+			name: "test"
+		},
+		{
 			path: "/contact",
-			component: _62edad14,
+			component: _d53d77a8,
 			name: "contact"
 		}
     ],
