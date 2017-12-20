@@ -13,11 +13,14 @@
   </div>
 
   <div :class="['navbar-menu', {'is-active': showDropdown}]">
+    <a href="#about" class="navbar-item scrolling" >
+      About
+    </a>
     <a href="#services" class="navbar-item scrolling">
       Services
     </a>
-    <a href="#about" class="navbar-item scrolling" >
-      About
+    <a href="#snow" class="navbar-item scrolling" >
+      Snow
     </a>
   </div>
 </nav>
