@@ -1,6 +1,7 @@
 <template lang="">
 <div class="">
   <navbar/>
+  <slideshow />
   <fullheight class="is-primary" id="about">
     <div class="columns">
       <div class="column is-two-fifths"><img src="/images/leavesongrass.jpg"></div>
@@ -39,10 +40,12 @@
 <script>
 import Navbar from '~/components/Navbar.vue'
 import fullheight from '~/components/fullheight.vue'
+import slideshow from '~/components/slideshow.vue'
 export default {
   components: {
     Navbar,
-    fullheight
+    fullheight,
+    slideshow
   }
 }
 </script>

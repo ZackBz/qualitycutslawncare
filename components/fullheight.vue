@@ -3,12 +3,12 @@
     <div class="hero-body">
       <div class="container">
         <slot>
-        <h1 class="title">
-          About
+        <!-- <h1 class="title">
+          Place Holder
         </h1>
         <h2 class="subtitle">
-          About Section
-        </h2>
+          Place Holder Text
+        </h2> -->
       </slot>
       </div>
     </div>
