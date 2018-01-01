@@ -1,18 +1,9 @@
 <template lang="html">
-  <div class="">
-    <navbar/>
-    <section :class="['hero', sectionClasses[(n-1) % sectionClasses.length], 'is-fullheight']" :id="sectionid[(n-1) % sectionid.length]" v-for="n in 5">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Full Height {{ n }}
-          </h1>
-          <h2 class="subtitle">
-            Full Height subtitle {{ n }}
-          </h2>
-        </div>
-      </div>
-    </section>
+  <div class="your-class">
+    <img src="/images/grass.jpg" alt="" class="hero is-fullheight">
+    <img src="/images/grass2.jpg" alt="" class="hero is-fullheight">
+    <img src="/images/grass3.jpg" alt="" class="hero is-fullheight">
+    <img src="/images/grass4.jpg" alt="" class="hero is-fullheight">
   </div>
 
 </template>
@@ -28,6 +19,18 @@ export default {
       sectionClasses: ['is-success', 'is-info', 'is-danger', 'is-warning'],
       sectionid: ['about', 'services', 'contact', 'snow', 'pricing']
     }
+  },
+  mounted () {
+    window.$('.your-class').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false,
+      dots: true,
+      infinite: true,
+      fade: true,
+      speed: 2000,
+      cssEase: 'linear'
+    })
   }
 }
 </script>

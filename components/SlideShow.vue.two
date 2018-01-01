@@ -1,0 +1,76 @@
+<template lang="html">
+  <!-- <fullheight class="slideshow"> -->
+  <div class="hero is-fullheight slideshow">
+    <div v-for="(image, index) in this.getImages()" :style="{
+      left: (100 * index) + 'vw',
+      'background-image': image
+    }"></div>
+  </div>
+
+  <!-- </fullheight> -->
+</template>
+
+<script>
+import fullheight from '~/components/fullheight.vue'
+export default {
+  data () {
+    return {
+      currentImage: 0,
+      urls: ''
+    }
+  },
+  methods: {
+    addImage (imageAdd) {
+      if (this.urls.length > 0) this.urls += ' '
+      this.urls += 'url(' + imageAdd + ')'
+    },
+    getImages () {
+      return this.urls.split(' ')
+    },
+    changeImage () {
+      this.currentImage += 1
+      this.currentImage = this.currentImage % this.getImages().length
+      window.$('.slideshow').animate({'margin-left': (this.currentImage * -100) + 'vw'}, 1000)
+    }
+  },
+  mounted () {
+    this.addImage('/images/lawnmower.jpg')
+    this.addImage('/images/grass.jpg')
+    this.addImage('/images/grass2.jpg')
+    this.addImage('/images/grass3.jpg')
+    this.addImage('/images/grass4.jpg')
+
+    // window.setInterval(this.changeImage, 7000)
+  },
+  components: {
+    fullheight
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    animation-name: slideshow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    div {
+      position: absolute;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: 150%;
+      height: 100%;
+      background-attachment: fixed;
+    }
+}
+
+@keyframes slideshow {
+  0% {margin-left: 0}
+  25% {margin-left: -100vw}
+  50% {margin-left: -200vw}
+  75% {margin-left: -300vw}
+  // 80% {margin-left: -400vw}
+  100% {margin-left: -400vw}
+}
+</style>

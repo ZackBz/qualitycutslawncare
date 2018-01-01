@@ -1,7 +1,7 @@
 <template lang="">
 <div class="">
   <navbar/>
-  <slideshow />
+  <slideshow scrollTo="#about" id="top"/>
   <fullheight class="is-primary" id="about">
     <div class="columns">
       <div class="column is-two-fifths"><img src="/images/leavesongrass.jpg"></div>

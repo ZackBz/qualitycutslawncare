@@ -1,3 +1,4 @@
+// require('slick-carousel')
 module.exports = {
   /*
   ** Headers of the page
@@ -15,7 +16,7 @@ module.exports = {
       {rel: 'stylesheet', href: '/fontawesome.min.css'}
     ],
     script: [
-      {src: '/jquery-3.2.1.min.js'},
+      {src: '/app.js'},
       {src: '/global.js'}
     ]
   },
@@ -42,6 +43,8 @@ module.exports = {
     }
   },
   css: [
-    {src: 'bulma/bulma.sass', lang: 'sass'}
+    {src: 'bulma/bulma.sass', lang: 'sass'},
+    {src: 'slick-carousel/slick/slick.scss', lang: 'scss'},
+    {src: 'slick-carousel/slick/slick-theme.scss', lang: 'scss'}
   ]
 }

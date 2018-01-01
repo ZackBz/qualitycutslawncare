@@ -1,7 +1,7 @@
 <template lang="html">
   <nav :class="['navbar', 'is-fixed-top', {'transparent': !showDropdown}]" role="navigation" aria-label="main navigation" ref="navbar">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
+    <a class="navbar-item scrolling" href="#top">
       <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
     </a>
 
@@ -46,9 +46,9 @@ export default {
       this.showDropdown = !this.showDropdown
     },
     scroll () {
-      let el = this.$refs.navbar
-      if (window.scrollY < el.clientHeight / 2) el.classList.add('transparent')
-      else el.classList.remove('transparent')
+      // let el = this.$refs.navbar
+      // if (window.scrollY < el.clientHeight / 2) el.classList.add('transparent')
+      // else el.classList.remove('transparent')
     }
   }
 }
@@ -56,12 +56,20 @@ export default {
 
 <style lang="scss" scoped>
   .navbar {transition: all 1s;}
-  .transparent {
-    background-color: transparent;
-    filter: grayscale(100);
-  }
+  // .transparent {
+  //   background-color: transparent;
+  //   filter: grayscale(100);
+  // }
   .navbar-menu {
     justify-content: flex-end;
-    .navbar-item {text-align: right}
+    .navbar-item {
+      text-align: right;
+      color: black;
+      border-bottom: 4px solid transparent;
+      &:hover {
+        background: transparent;
+        border-bottom: 4px solid #01d1b2;
+      }
+    }
   }
 </style>
