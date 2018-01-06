@@ -1,0 +1,68 @@
+@import "carousel";
+html {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-weight: 400;
+  background: #f2f2f2;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  speak: none;
+  * {
+    overflow: hidden;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.text {
+  background-color: white;
+  padding: 3rem;
+}
+.parallax {background-attachment: fixed;}
+
+.btn {
+  padding: 0.4rem 1rem;
+  color: white;
+  font-size: 0.9rem;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50rem;
+  line-height: 1.4rem;
+}
+
+.purple {background: linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%)}
+.red {background: linear-gradient(45deg, #fe60a1 0%, #ff8765 100%)}
+.green {background: linear-gradient(45deg, #19d9b4 0%, #92d275 100%)}
+.blue {background: linear-gradient(45deg, #8089ff 0%, #54ceff 100%)}
