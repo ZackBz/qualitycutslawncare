@@ -24,7 +24,7 @@
   <a href="#photos" class="navbar-item scrolling" >
     Photos
   </a>
-  <a href="#contact" class="navbar-item scrolling" >
+  <a href="/contact" class="navbar-item" >
     Contact
   </a>
 </div>

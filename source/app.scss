@@ -108,10 +108,10 @@ image {
     text-align: right;
     color: black;
     border-bottom: 4px solid transparent;
-    // &:hover {
-    //   background: transparent;
-    //   border-bottom: 4px solid #01d1b2;
-    // }
+    &:hover {
+      background: transparent;
+      border-bottom: 4px solid #01d1b2;
+    }
   }
 }
 

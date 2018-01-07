@@ -25,7 +25,6 @@ $(document).ready(function () {
   })
 })
 
-
 function toggleNavbar () {
   $('.navbar-menu').toggleClass('is-active')
 }

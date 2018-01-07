@@ -19,7 +19,8 @@
 ])
 <div class="small-sect">
     <h1 class="title">About</h1>
-    <p> Quality Cuts Lawn Care is independently owned and operated offering the best lawn care for both residential and commercial customers. Call, Email, or visit us on the web to set up a fast free estimate! Quality Cuts is more than just lawn care, visit Qualitycutslawncare.co for other services, reviews, photos and a pay your bill online option.</p>
+    <p>Quality Cuts is independently owned and operated offering the best lawncare to bot commercial and residential properties. Quality Cuts is registered, insured and certainly qualified to fulfill all of your property maintance needs. Call, email, or
+      <a href="/contact">submit a request</a> to set up a fast, free estimate. </p>
 </div>
 @endcomponent
 

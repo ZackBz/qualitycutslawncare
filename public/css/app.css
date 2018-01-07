@@ -140,6 +140,11 @@ image {
   border-bottom: 4px solid transparent;
 }
 
+.navbar-menu .navbar-item:hover {
+  background: transparent;
+  border-bottom: 4px solid #01d1b2;
+}
+
 .brand {
   text-align: left;
   color: black;
