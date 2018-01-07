@@ -14,7 +14,7 @@
   </fullheight>
 
   <fullheight class="is-danger" id="services">
-    <div class="columns paralaxß">
+    <div class="columns paralax">
       <div class="column is-two-fifths"></div>
       <div class="column is-half">
         <h1 class="title">Services</h1>
