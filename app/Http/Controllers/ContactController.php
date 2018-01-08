@@ -11,7 +11,7 @@ class ContactController extends Controller
     public function Submit(Request $r){
       $data = $r->all();
       Mail::to('zackbaldwin148@gmail.com')->send(new Contact($data));
-      dd($data);
+      return back();
     }
 
     public function ShowView(){

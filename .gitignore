@@ -22,3 +22,5 @@ Homestead.json
 .DS_Store
 public/signed/*
 !public/signed/.gitignore
+
+.vagrant/

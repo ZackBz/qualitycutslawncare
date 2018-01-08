@@ -187,6 +187,10 @@ image {
   background-image: url("/images/drone-red.png");
 }
 
+#services a {
+  border-bottom: 1px solid;
+}
+
 .hero-body {
   font-size: 1.25em;
   letter-spacing: 0.01rem;
@@ -195,5 +199,14 @@ image {
 
 .small-sect {
   max-width: 600px;
+}
+
+#contact h1 {
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+#contact label {
+  color: white;
 }
 

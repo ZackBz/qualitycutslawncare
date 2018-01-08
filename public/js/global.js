@@ -23,6 +23,12 @@ $(document).ready(function () {
       scrollToID($(this).attr('href'))
     })
   })
+
+  // let tel = document.getElementById('telephone')
+  // tel.addEventListener('input', function (e) {
+  //   if (tel.validity.typeMismatch) tel.setCustomValidity('asdfasdf')
+  //   else tel.setCustomValidity('')
+  // })
 })
 
 function toggleNavbar () {

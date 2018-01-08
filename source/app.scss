@@ -151,6 +151,7 @@ image {
 
 #services {
   background-image: url('/images/drone-red.png');
+  a { border-bottom: 1px solid}
 }
 
 
@@ -163,4 +164,14 @@ image {
 
 .small-sect {
   max-width: 600px;
+}
+
+#contact {
+  h1 {
+    line-height: 4rem;
+    margin-bottom: 2rem;
+  }
+  label {
+    color: white;
+  }
 }

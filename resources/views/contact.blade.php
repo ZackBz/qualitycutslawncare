@@ -1,8 +1,4 @@
-@extends('layout')
-@section('content')
-
-<div class="container center-horz">
-<form class="" action="/contact" method="post" style="width: 100%;">
+<form class="small-sect" action="/contact" method="post" style="width: 100%;">
   {{ csrf_field() }}
   <h1 class="is-size-1">Request an estimate:</h1>
   <div class="field">
@@ -15,21 +11,22 @@
   <div class="field">
     <label class="label">Phone Number:</label>
     <div class="control">
-      <input class="input" type="tel" placeholder="Enter Phone Number" name="phone" required>
+      <input class="input" type="tel" pattern="^\d{3}[- ]?\d{3}[- ]?\d{4}$" placeholder="Enter Phone Number" name="phone" required oninvalid="this.setCustomValidity('Phone format should be 123-123-1234')"
+    oninput="setCustomValidity('')">
     </div>
   </div>
 
   <div class="field">
     <label class="label">Email:</label>
     <div class="control">
-      <input class="input" type="email" placeholder="Enter Email" name="email" >
+      <input class="input" type="email" placeholder="Enter Email" name="email">
     </div>
   </div>
 
   <div class="field">
     <label class="label">Address:</label>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter Address" required name="field" >
+      <input class="input" type="text" placeholder="Enter Address" required name="field">
     </div>
   </div>
 
@@ -56,8 +53,6 @@
 
 
   <div class="control">
-   <button class="button is-link">Submit</button>
- </div>
-  </form>
-</div>
-@endsection
+    <button class="button is-link">Submit</button>
+  </div>
+</form>

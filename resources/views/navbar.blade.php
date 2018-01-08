@@ -1,7 +1,8 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" ref="navbar">
 <div class="navbar-brand brand">
   <a class="navbar-item scrolling" href="#top">
-    <h1>Quality Cuts lawn Care</h1>
+    <img src="/images/logo-big.png" alt="quality cuts lawn care logo" id="logo">
+    <!-- <h1>Quality Cuts lawn Care</h1> -->
   </a>
 
   <div class="navbar-burger" onclick="toggleNavbar()">
@@ -24,8 +25,8 @@
   <a href="#photos" class="navbar-item scrolling" >
     Photos
   </a>
-  <a href="/contact" class="navbar-item" >
-    Contact
+  <a href="#contact" class="navbar-item scrolling" >
+    Quote
   </a>
 </div>
 </nav>
