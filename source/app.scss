@@ -145,43 +145,65 @@ image {
 }
 
 #about {
-  background-image: url('/images/lawn-green.png');
+  // background-image: url('/images/lawn-green.png');
   background-position: center center;
   a { border-bottom: 1px solid}
 }
 
 #services {
-  background-image: url('/images/drone-red.png');
+  // background-image: url('/images/drone-red.png');
   a { border-bottom: 1px solid}
 }
 
 #lawnmowing {
-  background-image: url('/images/lawnmower-green.png');
+  // background-image: url('/images/lawnmower-green.png');
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
 }
 
 #services {
-  background-image: url('/images/drone-red.png');
+  // background-image: url('/images/drone-red.png');
   a { border-bottom: 1px solid}
 }
 
 #mulch {
-  background-image: url('/images/mulch.jpg');
+  // background-image: url('/images/mulch.jpg');
 }
 
 #springfall {
-  background-image: url('/images/leavesongrass.jpg');
+  // background-image: url('/images/leavesongrass.jpg');
 }
 
 #snowremoval {
-  background-image: url('/images/snowfootprint.jpg');
+  // background-image: url('/images/snowfootprint.jpg');
 }
 .hero-body {
     font-size: 1.25em;
     letter-spacing: 0.01rem;
     line-height: 2rem;
+}
+
+.skew-right, .skew-left {
+  position: relative;
+  overflow: visible;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 115%;
+    width: 100%;
+    background: inherit;
+    transform: skewY(-2deg) translateY(-50%);
+  }
+}
+
+.skew-left {
+  &:before {
+    transform: skewY(2deg) translateY(-50%);
+  }
 }
 
 .small-sect {
