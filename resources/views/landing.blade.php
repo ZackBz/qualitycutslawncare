@@ -10,7 +10,7 @@
 <div class="small-sect">
     <h1 class="title">About</h1>
     <p>Quality Cuts is independently owned and operated offering the best lawncare to bot commercial and residential properties. Quality Cuts is registered, insured and certainly qualified to fulfill all of your property maintance needs. Call, email, or
-      <a href="/contact">submit a request</a> to set up a fast, free estimate. </p>
+      <a href="#contact" class="scrolling">submit a request</a> to set up a fast, free estimate. </p>
 </div>
 @endcomponent
 
@@ -34,13 +34,29 @@
 
 
 @component('section', [
-  'class' => 'is-warning',
+  'class' => 'is-success',
   'id' => 'lawnmowing'
 ])
-<h1 class="title">Title</h1>
+<h1 class="title">Lawnmowing</h1>
 <h2 class="subtitle">Subtitle</h2>
 @endcomponent
 
+
+@component('section', [
+  'class' => 'is-success',
+  'id' => 'mulch'
+])
+<h1 class="title">Mulch/Stone Delivery</h1>
+<h2 class="subtitle">Subtitle</h2>
+@endcomponent
+
+@component('section', [
+  'class' => 'is-success',
+  'id' => 'springfall'
+])
+<h1 class="title">Spring & Fall Cleanup</h1>
+<h2 class="subtitle">Subtitle</h2>
+@endcomponent
 
 
 

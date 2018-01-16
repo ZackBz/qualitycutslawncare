@@ -22,11 +22,11 @@
   <a href="#services" class="navbar-item scrolling">
     Services
   </a>
-  <a href="#photos" class="navbar-item scrolling" >
-    Photos
-  </a>
   <a href="#contact" class="navbar-item scrolling" >
     Quote
+  </a>
+  <a href="#photos" class="navbar-item scrolling" >
+    Photos
   </a>
 </div>
 </nav>

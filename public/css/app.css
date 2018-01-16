@@ -183,12 +183,43 @@ image {
   background-position: center center;
 }
 
+#about a {
+  border-bottom: 1px solid;
+}
+
 #services {
   background-image: url("/images/drone-red.png");
 }
 
 #services a {
   border-bottom: 1px solid;
+}
+
+#lawnmowing {
+  background-image: url("/images/lawnmower-green.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#services {
+  background-image: url("/images/drone-red.png");
+}
+
+#services a {
+  border-bottom: 1px solid;
+}
+
+#mulch {
+  background-image: url("/images/mulch.jpg");
+}
+
+#springfall {
+  background-image: url("/images/leavesongrass.jpg");
+}
+
+#snowremoval {
+  background-image: url("/images/snowfootprint.jpg");
 }
 
 .hero-body {
