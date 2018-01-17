@@ -17,21 +17,6 @@
 
 
 
-@component('section', [
-  'class' => 'skew-right',
-  'id' => 'services'
-])
-  <div>
-    <h1 class="title">Services</h1>
-    <ul class="icons">
-      <li class="icon-list"><i class="far fa-link"></i><a  class="scrolling" href="#lawnmowing">Lawn Mowing</a></li>
-      <li class="icon-list"><i class="far fa-link"></i><a class="scrolling" href="#mulch">Mulch/Stone Delivery</a></li>
-      <li class="icon-list"><i class="far fa-link"></i><a class="scrolling" href="#springfall">Spring/Fall clean up</a></li>
-      <li class="icon-list"><i class="far fa-link"></i><a class="scrolling" href="#snowremoval">Snow Removal</a></li>
-    </ul>
-  </div>
-@endcomponent
-
 
 @component('section', [
   'class' => 'is-success skew-right',

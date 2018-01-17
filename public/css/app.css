@@ -19,6 +19,11 @@ html * {
   overflow: hidden;
 }
 
+.navbar,
+.navbar * {
+  overflow: visible;
+}
+
 *,
 *:before,
 *:after {
@@ -134,15 +139,49 @@ image {
           justify-content: flex-end;
 }
 
-.navbar-menu .navbar-item {
+.navbar-menu .navbar-item,
+.navbar-menu .navbar-link {
   text-align: right;
   color: black;
+}
+
+.navbar-menu .navbar-item:hover,
+.navbar-menu .navbar-link:hover {
+  background: transparent;
+}
+
+.navbar-menu .navbar-item:hover .navbar-link,
+.navbar-menu .navbar-link:hover .navbar-link {
+  background: transparent;
+}
+
+.navbar-menu .navbar-item {
   border-bottom: 4px solid transparent;
 }
 
 .navbar-menu .navbar-item:hover {
-  background: transparent;
   border-bottom: 4px solid #01d1b2;
+}
+
+.navbar-menu .navbar-item .navbar-item:hover {
+  border-bottom: 4px solid transparent;
+}
+
+.is-active .navbar-link {
+  padding-right: 1rem;
+}
+
+.is-active .navbar-item .navbar-link {
+  display: none;
+}
+
+.is-active .navbar-dropdown {
+  padding: 0;
+  font-size: 1rem;
+}
+
+.is-active .navbar-dropdown .navbar-item {
+  padding: 0.5rem 1rem;
 }
 
 .brand {

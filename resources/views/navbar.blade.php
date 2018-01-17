@@ -19,9 +19,25 @@
   <a href="#about" class="navbar-item scrolling" >
     About
   </a>
-  <a href="#services" class="navbar-item scrolling">
-    Services
-  </a>
+  <div  class="navbar-item has-dropdown is-hoverable">
+    <div class="navbar-link" href="#">
+      Services
+    </div>
+    <div class="navbar-dropdown">
+      <a class="navbar-item scrolling" href="#lawnmowing">
+        Lawnmowing
+      </a>
+      <a class="navbar-item scrolling" href="#mulch">
+        Mulch & Stone Delivery
+      </a>
+      <a class="navbar-item scrolling" href="#springfall">
+        Spring & Fall Cleanup
+      </a>
+      <a class="navbar-item scrolling" href="#snowremoval">
+        Snow Removal
+      </a>
+    </div>
+  </div>
   <a href="#contact" class="navbar-item scrolling" >
     Quote
   </a>

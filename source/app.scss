@@ -19,6 +19,10 @@ html {
   }
 }
 
+.navbar, .navbar * {
+  overflow: visible;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -104,13 +108,33 @@ image {
 
 .navbar-menu {
   justify-content: flex-end;
-  .navbar-item {
+  .navbar-item, .navbar-link {
     text-align: right;
     color: black;
-    border-bottom: 4px solid transparent;
     &:hover {
       background: transparent;
-      border-bottom: 4px solid #01d1b2;
+      .navbar-link {background: transparent}
+    }
+  }
+  .navbar-item {
+    border-bottom: 4px solid transparent;
+    &:hover { border-bottom: 4px solid #01d1b2}
+    .navbar-item:hover {border-bottom: 4px solid transparent;}
+  }
+}
+
+.is-active {
+  .navbar-link {
+    padding-right: 1rem;
+  }
+  .navbar-item .navbar-link {
+    display: none;
+  }
+  .navbar-dropdown {
+    padding: 0;
+    font-size: 1rem;
+    .navbar-item {
+      padding: 0.5rem 1rem;
     }
   }
 }
