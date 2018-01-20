@@ -24,6 +24,7 @@
       <script src="/js/app.js"> </script>
       <script src="/slick/slick.min.js" charset="utf-8"></script>
       <script src="/js/global.js"></script>
+      <script src="/js/popup.js"></script>
 
     </body>
 </html>

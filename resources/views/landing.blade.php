@@ -9,7 +9,7 @@
 ])
 <div class="small-sect">
     <h1 class="title">About</h1>
-    <p>Quality Cuts is independently owned and operated offering the best lawncare to bot commercial and residential properties. Quality Cuts is registered, insured and certainly qualified to fulfill all of your property maintance needs. Call, email, or
+    <p>Quality Cuts is independently owned and operated offering the best lawncare to both commercial and residential properties. Quality Cuts is registered, insured and certainly qualified to fulfill all of your property maintance needs. Call, email, or
       <a href="#contact" class="scrolling">submit a request</a> to set up a fast, free estimate. </p>
 </div>
 @endcomponent
@@ -19,34 +19,34 @@
 
 
 @component('section', [
-  'class' => 'is-success skew-right',
+  'class' => 'skew-right',
   'id' => 'lawnmowing'
 ])
 <div class="small-sect">
 <h1 class="title">Lawnmowing</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>When you let Quality Cuts maintain your lawn care needs, you're not just investing in a beautiful looking lawn, you're also buying your free time back! Imagine coming home to a perfectly manicured lawn and being able to enjoy summer evenings doing as you please. Services may include mowing, bagging grass, fertilization, trimming shrubs/bushes, edging walks/drives and all services including blowing off all excess grass from walks/drives/etc.</p>
 </div>
 @endcomponent
 
 
 @component('section', [
-  'class' => 'skew-right',
+  'class' => 'is-success skew-right',
   'id' => 'mulch'
 ])
 <div class="small-sect">
 <h1 class="title">Mulch/Stone Delivery</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Let us shovel it for you! Nothing helps add curb appeal to your property then freshening up of mulch or decorative rock delivered and installed.</p>
 </div>
 
 @endcomponent
 
 @component('section', [
-  'class' => 'is-success skew-left',
+  'class' => 'skew-left',
   'id' => 'springfall'
 ])
 <div class="small-sect">
 <h1 class="title">Spring & Fall Cleanup</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Leavs in the fall? Debris in the spring? Whatever cleaning up your lawn needs, we can make it look its best.</p>
 </div>
 
 @endcomponent
@@ -54,13 +54,24 @@
 
 
 @component('section', [
-  'class' => 'skew-right',
+  'class' => 'is-success skew-right',
   'id' => 'snowremoval'
 ])
 <div class="small-sect">
 <h1 class="title">Snow Removal</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Servicing commerical and residential properties, we can remove snow and salt from sidewalks small driveways.</p>
 </div>
+
+@endcomponent
+
+@component('section', [
+  'class' => 'skew-left',
+  'id' => 'photos'
+])
+<div class="small-sect">
+<h1 class="title">Photos</h1>
+</div>
+
 
 @endcomponent
 

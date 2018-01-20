@@ -15,5 +15,9 @@ Route::get('/', function () {
     return view('landing');
 });
 
+Route::get('/photos', function () {
+    return view('photos');
+});
+
 Route::post('/contact', 'ContactController@Submit');
 Route::get('/contact', 'ContactController@ShowView');

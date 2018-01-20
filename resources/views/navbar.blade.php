@@ -41,7 +41,7 @@
   <a href="#contact" class="navbar-item scrolling" >
     Quote
   </a>
-  <a href="#photos" class="navbar-item scrolling" >
+  <a href="/photos" class="navbar-item" >
     Photos
   </a>
 </div>
