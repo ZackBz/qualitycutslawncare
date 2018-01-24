@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 #image-holder {
-    width: 500px;
+    max-width: 960px;
 }
 #close-button {
   position: fixed;
@@ -44,6 +44,9 @@
   font-size: 3rem;
   cursor: pointer;
 }
+.column {
+  padding: 0 0.75rem;
+}
 </style>
 <div id="popup" class="popup-hidden">
   <div id="background-transparent" onclick="closePopup()"></div>
@@ -51,10 +54,10 @@
   <div id="image-holder"></div>
 </div>
 
-<div id="pc">
+
   <div class="columns">
 
-    <div class="column" id="column1">
+    <div class="column">
       <img src="/images/gardening.jpg" class="image-panel" onclick="openPopup(this)">
       <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)">
       <img src="/images/grass3.jpg" class="image-panel" onclick="openPopup(this)">
@@ -73,12 +76,11 @@
     </div>
 
     <div class="column">
-      <img src="/images/drone.jpg" class="panel" onclick="openPopup(this)">
-      <img src="/images/grass3.jpg" class="panel" onclick="openPopup(this)">
-      <img src="/images/grass2.jpg" class="panel" onclick="openPopup(this)">
+      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)">
+      <img src="/images/grass3.jpg" class="image-panel" onclick="openPopup(this)">
+      <img src="/images/grass2.jpg" class="image-panel" onclick="openPopup(this)">
     </div>
   </div>
-</div>
 
 
 @endsection
