@@ -40,6 +40,9 @@ image {
 .center-horz {
   display: flex;
   justify-content: center;
+  padding: 5rem;
+  min-height: 400px;
+  align-items: center;
 }
 .paralax {
   background-attachment: fixed;
@@ -90,6 +93,7 @@ image {
     width: 100%;
     color: white;
     text-shadow: 0px 2px 4px black;
+    z-index: 1;
     i {
       cursor: pointer;
       color: white;
@@ -241,5 +245,49 @@ image {
   }
   label {
     color: white;
+  }
+}
+
+footer {
+  background: #141a1d;
+  min-height: 100vh;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 960px;
+    margin: auto;
+  }
+  .footer-column {
+    line-height: 2rem;
+    text-align: center;
+    padding: 4rem 1rem;
+    display: inline-block;
+    width: 300px;
+    .item, h1, h2, h3 {
+      width: 200px;
+      float: right;
+      text-align: left;
+      // text-decoration: none;
+      color: white;
+    }
+    a.item {
+        display: flex;
+        align-items: center;
+        line-height: 2rem;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+
+    i {
+      margin-right: 1rem;
+    }
   }
 }

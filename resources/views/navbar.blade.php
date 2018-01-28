@@ -1,8 +1,7 @@
 <?php
-  $scrollingclass = "";
-  dd(request()->segments());
+  $scrollingclass ="";
   $link = "/";
-  if (Request::url() === "/" ) {
+  if (request()->path() === "/" ) {
     $scrollingclass = "scrolling";
     $link = "";
   }
@@ -51,7 +50,7 @@
     Quote
   </a>
   <a href="/photos" class="navbar-item" >
-    Photos
+    Gallery
   </a>
 </div>
 </nav>

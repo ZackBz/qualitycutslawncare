@@ -33,6 +33,7 @@
         @yield('content')
       </div>
 
+      @include('footer')
 
       <script src="/js/app.js"> </script>
       <script src="/slick/slick.min.js" charset="utf-8"></script>

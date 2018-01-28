@@ -23,7 +23,7 @@
   'id' => 'lawnmowing'
 ])
 <div class="small-sect">
-<h1 class="title">Lawnmowing</h1>
+<h1 class="title">Lawn mowing</h1>
 <p>When you let Quality Cuts maintain your lawn care needs, you're not just investing in a beautiful looking lawn, you're also buying your free time back! Imagine coming home to a perfectly manicured lawn and being able to enjoy summer evenings doing as you please. Services may include mowing, bagging grass, fertilization, trimming shrubs/bushes, edging walks/drives and all services including blowing off all excess grass from walks/drives/etc.</p>
 </div>
 @endcomponent
@@ -34,7 +34,7 @@
   'id' => 'mulch'
 ])
 <div class="small-sect">
-<h1 class="title">Mulch/Stone Delivery</h1>
+<h1 class="title">Mulch & Stone Delivery</h1>
 <p>Let us shovel it for you! Nothing helps add curb appeal to your property then freshening up of mulch or decorative rock delivered and installed.</p>
 </div>
 
@@ -54,7 +54,7 @@
 
 
 @component('section', [
-  'class' => 'is-success skew-right',
+  'class' => 'is-success skew-left',
   'id' => 'snowremoval'
 ])
 <div class="small-sect">
@@ -65,17 +65,29 @@
 @endcomponent
 
 @component('section', [
-  'class' => 'skew-left',
+  'class' => 'skew-right',
   'id' => 'photos'
 ])
-<div class="small-sect">
-<h1 class="title">Photos</h1>
+<div class="has-text-centered">
+  <h1 class="title has-text-left">Photos</h1>
+  <div class="columns">
+
+    <div class="column">
+      <img src="/images/grass.jpg">
+    </div>
+
+    <div class="column">
+      <img src="/images/gardening.jpg">
+    </div>
+
+    <div class="column">
+      <img src="/images/grass3.jpg">
+    </div>
+  </div>
+  <a class="button is-large is-success" href="/photos">View Photo Gallery</a>
 </div>
 
-
 @endcomponent
-
-
 
 
 @component('section', [

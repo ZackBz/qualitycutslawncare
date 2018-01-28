@@ -50,6 +50,11 @@ image {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 5rem;
+  min-height: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .paralax {
@@ -116,6 +121,7 @@ image {
   width: 100%;
   color: white;
   text-shadow: 0px 2px 4px black;
+  z-index: 1;
 }
 
 .scroll-continue i {
@@ -281,5 +287,67 @@ image {
 
 #contact label {
   color: white;
+}
+
+footer {
+  background: #141a1d;
+  min-height: 100vh;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 960px;
+  margin: auto;
+}
+
+footer .footer-column {
+  line-height: 2rem;
+  text-align: center;
+  padding: 4rem 1rem;
+  display: inline-block;
+  width: 300px;
+}
+
+footer .footer-column .item,
+footer .footer-column h1,
+footer .footer-column h2,
+footer .footer-column h3 {
+  width: 200px;
+  float: right;
+  text-align: left;
+  color: white;
+}
+
+footer .footer-column a.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 2rem;
+}
+
+footer .footer-column a.item span {
+  text-decoration: underline;
+}
+
+footer .footer-column i {
+  margin-right: 1rem;
 }
 
