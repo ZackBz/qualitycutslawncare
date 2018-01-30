@@ -40,7 +40,7 @@ image {
 .center-horz {
   display: flex;
   justify-content: center;
-  padding: 5rem;
+  padding: 5rem 0;
   min-height: 400px;
   align-items: center;
 }
@@ -246,6 +246,9 @@ image {
   label {
     color: white;
   }
+}
+.hero.is-success {
+  background-color: #67a243;
 }
 
 footer {

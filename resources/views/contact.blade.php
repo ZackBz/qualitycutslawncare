@@ -1,3 +1,19 @@
+
+@if(Session::has('Success'))
+<notification>{{ Session::get('Success') }}</notification>
+@endif
+
+
+
+
+
+
+
+
+
+
+
+
 <form class="small-sect" action="/contact" method="post" style="width: 100%;">
   {{ csrf_field() }}
   <h1 class="is-size-1">Request an estimate:</h1>

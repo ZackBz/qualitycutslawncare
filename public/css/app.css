@@ -50,7 +50,7 @@ image {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 5rem;
+  padding: 5rem 0;
   min-height: 400px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -287,6 +287,10 @@ image {
 
 #contact label {
   color: white;
+}
+
+.hero.is-success {
+  background-color: #67a243;
 }
 
 footer {
