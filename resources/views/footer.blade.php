@@ -1,3 +1,11 @@
+<?php
+  $scrollingclass ="";
+  $link = "/";
+  if (request()->path() === "/" ) {
+    $scrollingclass = "scrolling";
+    $link = "";
+  }
+ ?>
 <footer id="footer">
   <div class="wrapper">
 
@@ -6,8 +14,6 @@
       <a href="#" class="item"><i class="fab fa-facebook"></i><span>Facebook</span></a>
       <a href="#" class="item"><i class="fab fa-twitter"></i><span>Twitter</span></a>
       <a href="#" class="item"><i class="fab fa-instagram"></i><span>Instagram</span></a>
-      <a href="#" class="item"><i class="fab fa-reddit"></i><span>Reddit</span></a>
-      <a href="#" class="item"><i class="fab fa-pinterest"></i><span>Pinterest</span></a>
     </div>
 
     <div class="footer-column">
@@ -19,13 +25,13 @@
 
     <div class="footer-column">
       <h2 class="is-size-4">Links</h2>
-      <a href="#about" class="item"><i class="fas fa-info-circle"></i><span>About</span></a>
-      <a href="#lawnmowing" class="item"><i class="fas fa-link"></i><span>Lawn Mowing</span></a>
-      <a href="#mulch" class="item"><i class="fas fa-link"></i><span>Mulch & Stone</span></a>
-      <a href="#springfall" class="item"><i class="fas fa-link"></i><span>Spring & Fall Cleanup</span></a>
-      <a href="#snowremoval" class="item"><i class="fas fa-link"></i><span>Snow Removal</span></a>
+      <a href="{{$link}}#about" class="item"><i class="fas fa-info-circle"></i><span>About</span></a>
+      <a href="{{$link}}#lawnmowing" class="item"><i class="fas fa-link"></i><span>Lawn Mowing</span></a>
+      <a href="{{$link}}#mulch" class="item"><i class="fas fa-link"></i><span>Mulch & Stone</span></a>
+      <a href="{{$link}}#springfall" class="item"><i class="fas fa-link"></i><span>Spring & Fall Cleanup</span></a>
+      <a href="{{$link}}#snowremoval" class="item"><i class="fas fa-link"></i><span>Snow Removal</span></a>
       <a href="/photos" class="item"><i class="fas fa-images"></i><span>Gallery</span></a>
-      <a href="https://www.yardbook.com/60767/pay_now" class="item"><i class="fas fa-credit-card"></i><span>Pay Invoices</span></a>
+      <a href="https://www.yardbook.com/60767/pay_now" class="item"><i class="fas fa-credit-card"></i><span>Pay Your bill</span></a>
     </div>
 
 

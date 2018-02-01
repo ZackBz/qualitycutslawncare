@@ -53,7 +53,7 @@
   </a>
 
   <a href="https://www.yardbook.com/60767/pay_now" class="navbar-item" >
-    Pay Invoices
+    Pay Your Bill
   </a>
 </div>
 </nav>
