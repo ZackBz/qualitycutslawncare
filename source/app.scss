@@ -128,6 +128,13 @@ image {
     .navbar-item:hover {border-bottom: 4px solid transparent;}
   }
 }
+.navbar-menu.is-active {
+  .navbar-item {
+    border-bottom: 4px solid transparent;
+    &:hover { border-bottom: 4px solid transparent}
+    .navbar-item:hover {border-bottom: 4px solid transparent;}
+  }
+}
 
 .is-active {
   .navbar-link {
@@ -298,7 +305,7 @@ footer {
 }
 
 .image-panel {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   cursor: pointer;
 }
 #popup {
@@ -338,7 +345,7 @@ footer {
   cursor: pointer;
 }
 .column {
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
 }
 
 #static-text {
@@ -354,4 +361,7 @@ footer {
   text-shadow: 0px 1px black;
   width: 100%;
   text-align: center;
+  img {
+    max-height: 30vh;
+  }
 }

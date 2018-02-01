@@ -9,18 +9,22 @@
 <footer id="footer">
   <div class="wrapper">
 
+
     <div class="footer-column">
       <h2 class="is-size-4">Social Media</h2>
-      <a href="#" class="item"><i class="fab fa-facebook"></i><span>Facebook</span></a>
-      <a href="#" class="item"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-      <a href="#" class="item"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+      @if (!empty(Config::get('social')))
+        @foreach(Config::get('social') as $site => $link)
+          @if (!empty($link))
+            <a href="{{ $link }}" class="item"><i class="fab fa-{{ strToLower($site) }}"></i><span>{{ $site }}</span></a>
+          @endif
+        @endforeach
+      @endif
     </div>
 
     <div class="footer-column">
       <h2 class="is-size-4">Contact</h2>
-      <a href="tel:+{{ env('CONTACT_TEL') }}" class="item"><i class="fas fa-phone"></i><span>Call me</span></a>
+      <a href="tel:+{{ env('CONTACT_TEL') }}" class="item"><i class="fas fa-phone"></i><span>{{ env('CONTACT_TEL') }}</span></a>
       <a href="mailto:{{ env('CONTACT_EMAIL') }}?subject=Business%20Inquiry" class="item"><i class="fas fa-envelope"></i><span>Email me</span></a>
-      <!-- <a href="mailto:zackbaldwin148@gmail.com" class="item"><i class="far fa-envelope"></i><span>Email me</span></a> -->
   </div>
 
     <div class="footer-column">
