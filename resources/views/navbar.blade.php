@@ -9,8 +9,7 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" ref="navbar">
 <div class="navbar-brand brand">
   <a class="navbar-item scrolling" href="#top">
-    <img src="/images/logo-big.png" alt="quality cuts lawn care logo" id="logo">
-    <!-- <h1>Quality Cuts lawn Care</h1> -->
+    <h1>Quality Cuts lawn Care</h1>
   </a>
 
   <div class="navbar-burger" onclick="toggleNavbar()">
@@ -51,6 +50,10 @@
   </a>
   <a href="/photos" class="navbar-item" >
     Gallery
+  </a>
+
+  <a href="https://www.yardbook.com/60767/pay_now" class="navbar-item" >
+    Pay Invoices
   </a>
 </div>
 </nav>

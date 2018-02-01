@@ -8,13 +8,14 @@
 
 
 <div class="slideshow-component" id="top">
+  <div id="static-text" class="container center-horz title">
+    <img src="/images/logo-big-white.png" alt="quality cuts lawn care logo" id="logo">
+    <!-- <h1 style="color: white">Commerical and Residential</h1> -->
+  </div>
   <div class="slideshow hero is-fullheight">
-    <div class="slide-image hero-body" style="{{ image('grass.jpg') }}">
-      <div class="container center-horz title">
-        <h1 style="color: white">Commerical and Residential</h1>
-      </div>
-    </div>
+    <div class="slide-image hero-body" style="{{ image('grass.jpg') }}"></div>
     <div class="slide-image hero-body" style="{{ image('grass2.jpg') }}"></div>
+
     <div class="slide-image hero-body" style="{{ image('grass3.jpg') }}"></div>
     <div class="slide-image hero-body" style="{{ image('grass4.jpg') }}"></div>
   </div>

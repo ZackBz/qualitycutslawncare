@@ -1,16 +1,12 @@
 
 @if(Session::has('Success'))
-<notification>{{ Session::get('Success') }}</notification>
+<notification class="is-info">{{ Session::get('Success') }}</notification>
 @endif
 
 
-
-
-
-
-
-
-
+@foreach($errors->all() as $error)
+<notification class="is-danger">{{ $error }}</notification>
+@endforeach
 
 
 
@@ -42,7 +38,7 @@
   <div class="field">
     <label class="label">Address:</label>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter Address" required name="field">
+      <input class="input" type="text" placeholder="Enter Address" required name="address">
     </div>
   </div>
 

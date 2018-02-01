@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="notification is-info" v-if="this.isVisible">
+  <div class="notification" v-if="this.isVisible">
     <button class="delete" @click="close"></button>
     <slot>
 
@@ -10,6 +10,9 @@
 
 <script>
 export default {
+  // props: [
+  //   "class"
+  // ],
   data() {
     return{
       isVisible: true
