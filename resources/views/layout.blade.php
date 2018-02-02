@@ -12,6 +12,16 @@
       <meta name="web_author" content="">
       <meta name="language" content="English">
 
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=OmyqwPjmyk">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=OmyqwPjmyk">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png?v=OmyqwPjmyk">
+      <link rel="manifest" href="/favicons/site.webmanifest?v=OmyqwPjmyk">
+      <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg?v=OmyqwPjmyk" color="#67a243">
+      <link rel="shortcut icon" href="/favicons/favicon.ico?v=OmyqwPjmyk">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-config" content="/favicons/browserconfig.xml?v=OmyqwPjmyk">
+      <meta name="theme-color" content="#ffffff">
+
       <!-- Apple specific -->
       <meta name="apple-mobile-web-app-title" content="{{ env('APP_NAME') }}">
       <meta name="apple-mobile-web-app-capable" content="yes">
