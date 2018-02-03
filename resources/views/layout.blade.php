@@ -6,8 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="application-name" content="{{ env('APP_NAME') }}">
       <meta name="theme-color" content="#ffffff">
-      <meta name="description" content="">
-      <meta name="keywords" content="">
+      <meta name="description" content="An independently owned lawn care business base in Waverly, NY">
+      <meta name="keywords" content="lawn, quality, mulch, snow, spring, fall, cuts, residential, commercial">
       <meta name="robots" content="index, follow">
       <meta name="web_author" content="">
       <meta name="language" content="English">
@@ -28,13 +28,23 @@
       <meta name="apple-mobile-web-app-status-bar-style" content="white">
 
 
-        <title>{{ env('APP_NAME') }}</title>
-        <link rel="stylesheet" href="/css/bulma.css">
-        <link rel="stylesheet" href="/slick/slick.css">
-        <link rel="stylesheet" href="/slick/slick-theme.css">
-        <link rel="stylesheet" href="/css/app.css">
-        <link rel="stylesheet" href="/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/fontawesome.min.css">
+      <title>{{ env('APP_NAME') }}</title>
+      <link rel="stylesheet" href="/css/bulma.css">
+      <link rel="stylesheet" href="/slick/slick.css">
+      <link rel="stylesheet" href="/slick/slick-theme.css">
+      <link rel="stylesheet" href="/css/app.css">
+      <link rel="stylesheet" href="/fontawesome-all.min.css">
+      <link rel="stylesheet" href="/fontawesome.min.css">
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113506770-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113506770-1');
+      </script>
 
     </head>
     <body>

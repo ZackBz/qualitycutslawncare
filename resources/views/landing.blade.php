@@ -73,15 +73,15 @@
   <div class="columns">
 
     <div class="column">
-      <img src="/images/grass.jpg">
+      <img src="/images/grass.jpg" alt="grass">
     </div>
 
     <div class="column">
-      <img src="/images/gardening.jpg">
+      <img src="/images/gardening.jpg" alt="garden">
     </div>
 
     <div class="column">
-      <img src="/images/grass3.jpg">
+      <img src="/images/grass3.jpg" alt="grass">
     </div>
   </div>
   <a class="button is-large is-success" href="/photos">View Photo Gallery</a>
