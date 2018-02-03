@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="application-name" content="{{ env('APP_NAME') }}">
       <meta name="theme-color" content="#ffffff">
-      <meta name="description" content="An independently owned lawn care business base in Waverly, NY">
+      <meta name="description" content="Quality Cuts Lawn Care is an independently owned lawn care business base in Waverly, NY. We provide a range of services to both commercial and residential clients. Our services include lawn care, mulch and stone delivery, snow removal, and spring & fall clean up.">
       <meta name="keywords" content="lawn, quality, mulch, snow, spring, fall, cuts, residential, commercial">
       <meta name="robots" content="index, follow">
       <meta name="web_author" content="">

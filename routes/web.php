@@ -21,3 +21,8 @@ Route::get('/photos', function () {
 
 Route::post('/contact', 'ContactController@Submit');
 Route::get('/contact', 'ContactController@ShowView');
+
+
+Route::get('/{wildcard}', function ($wildcard) {
+  return redirect("/#$wildcard");
+});

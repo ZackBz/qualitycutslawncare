@@ -10,7 +10,6 @@
 <div class="slideshow-component" id="top">
   <div id="static-text" class="container center-horz title">
     <img src="/images/logo-big-white.png" alt="quality cuts lawn care logo" id="logo">
-    <!-- <h1 style="color: white">Commerical and Residential</h1> -->
   </div>
   <div class="slideshow hero is-fullheight">
     <div class="slide-image hero-body" style="{{ image('grass.jpg') }}"></div>
