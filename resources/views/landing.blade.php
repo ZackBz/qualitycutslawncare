@@ -59,7 +59,7 @@
 ])
 <div class="small-sect">
 <h1 class="title">Snow Removal</h1>
-<p>Servicing commerical and residential properties, we can remove snow and salt from sidewalks small driveways.</p>
+<p>Servicing commerical and residential properties, we can remove snow and salt sidewalks, driveways, and parking lots.</p>
 </div>
 
 @endcomponent
@@ -73,7 +73,7 @@
   <div class="columns">
 
     <div class="column">
-      <img src="/images/grass.jpg" alt="grass">
+      <img id="picture-resize" src="/images/qclc_yard_hedge.png" alt="hedge">
     </div>
 
     <div class="column">
