@@ -24,3 +24,6 @@ public/signed/*
 !public/signed/.gitignore
 
 .vagrant/
+
+public/css/app.css
+public/js/app.js
