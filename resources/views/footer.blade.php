@@ -14,7 +14,7 @@
       @if (!empty(Config::get('social')))
         @foreach(Config::get('social') as $site => $link)
           @if (!empty($link))
-            <a href="{{ $link }}" class="item"><i class="fab fa-{{ strToLower($site) }}"></i><span>{{ $site }}</span></a>
+            <a href="{{ $link }}" target="_blank" class="item"><i class="fab fa-{{ strToLower($site) }}"></i><span>{{ $site }}</span></a>
           @endif
         @endforeach
       @endif
@@ -22,6 +22,7 @@
 
     <div class="footer-column">
       <h2 class="is-size-4">Contact</h2>
+      <h1 class="is-size-4">Hunter</h1>
       <a href="tel:+{{ env('CONTACT_TEL') }}" class="item">
         <i class="fas fa-phone"></i>
         <span>{{ env('CONTACT_TEL') }}</span>
