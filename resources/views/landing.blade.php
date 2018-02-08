@@ -73,15 +73,15 @@
   <div class="columns">
 
     <div class="column">
-      <img id="picture-resize" src="/images/qclc_yard_hedge.png" alt="hedge">
+      <img class="picture-resize" src="/images/qclc_yard_hedge.png" alt="hedge">
     </div>
 
     <div class="column">
-      <img src="/images/gardening.jpg" alt="garden">
+      <img class="picture-resize" src="/images/snowplow1.jpg" alt="garden">
     </div>
 
     <div class="column">
-      <img src="/images/grass3.jpg" alt="grass">
+      <img class="picture-resize" src="/images/grass3.jpg" alt="grass">
     </div>
   </div>
   <a class="button is-large is-success" href="/photos">View Photo Gallery</a>

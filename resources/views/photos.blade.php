@@ -11,27 +11,27 @@
   <div class="columns">
 
     <div class="column">
-      <img src="/images/gardening.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
-      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
+      <img src="/images/snowplow1.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
+      <img src="/images/grass.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
+      <img src="/images/snowplow3.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+    </div>
+
+    <div class="column">
+      <img src="/images/lawnmower.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/snowplow5.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/grass3.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
 
     <div class="column">
-      <img src="/images/grass.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/gardening.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
-      <img src="/images/grass2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/snowplow2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/gardening.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
 
     <div class="column">
-      <img src="/images/lawnmower.jpg" class="image-panel" onclick="openPopup(this)" alt="lawn mower">
-      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
-      <img src="/images/gardening.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
-    </div>
-
-    <div class="column">
-      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
-      <img src="/images/grass3.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/grass2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/snowplow4.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/gardening2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/flowersandgrass.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
   </div>
 
