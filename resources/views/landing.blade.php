@@ -24,7 +24,7 @@
 ])
 <div class="small-sect">
 <h1 class="title">Lawn Mowing</h1>
-<p>When you let Quality Cuts maintain your lawn care needs, you're not just investing in a beautiful looking lawn, you're also buying your free time back! Imagine coming home to a perfectly manicured lawn and being able to enjoy summer evenings doing as you please. Services may include mowing, bagging grass, fertilization, trimming shrubs/bushes, edging walks/drives and all services include blowing off all excess grass from walks/drives/etc.</p>
+<p>When you let Quality Cuts take care of your lawn care needs, you're not just investing in a beautiful looking lawn, you're also buying your free time back! Imagine coming home to a perfectly manicured lawn and being able to enjoy summer evenings doing as you please. Services may include mowing, bagging grass, fertilization, trimming shrubs/bushes, edging walks/drives and all services include blowing off all excess grass from walks/drives/etc.</p>
 </div>
 @endcomponent
 
