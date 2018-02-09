@@ -13,7 +13,7 @@
   </div>
   <div class="slideshow hero is-fullheight">
     <div class="slide-image hero-body" style="{{ image('grass.jpg') }}"></div>
-    <div class="slide-image hero-body" style="{{ image('grass2.jpg') }}"></div>
+    <div class="slide-image hero-body" style="{{ image('snowplow2.jpg') }}"></div>
 
     <div class="slide-image hero-body" style="{{ image('grass3.jpg') }}"></div>
     <div class="slide-image hero-body" style="{{ image('grass4.jpg') }}"></div>
