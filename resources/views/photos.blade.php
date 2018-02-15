@@ -4,7 +4,11 @@
 <div id="popup" class="popup-hidden">
   <div id="background-transparent" onclick="closePopup()"></div>
   <div id="close-button" onclick="closePopup()"><i class="fal fa-times"></i></div>
-  <div id="image-holder"></div>
+  <div id="arrow">
+    <i id="arrow-left" class="fas fa-chevron-left" onclick="arrowLeft()"></i>
+    <div id="image-holder"></div>
+    <i id="arrow-right" class="fas fa-chevron-right" onclick="arrowRight()"></i>
+  </div>
 </div>
 
 

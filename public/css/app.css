@@ -456,3 +456,33 @@ footer .footer-column i {
      object-fit: cover;
 }
 
+#arrow {
+  position: relative;
+  overflow: visible;
+}
+
+#arrow i {
+  z-index: 1001;
+  color: white;
+  position: absolute;
+  font-size: 4rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+#arrow-left {
+  left: -5rem;
+  top: 0;
+}
+
+#arrow-right {
+  right: -5rem;
+  top: 0;
+}
+
