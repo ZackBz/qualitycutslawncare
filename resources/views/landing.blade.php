@@ -81,7 +81,7 @@
     </div>
 
     <div class="column">
-      <img class="picture-resize" src="/images/springmulch1.jpg" alt="grass">
+      <img class="picture-resize" src="/images/qclcspringmulch1.jpg" alt="grass">
     </div>
   </div>
   <a class="button is-large is-success" href="/photos">View Photo Gallery</a>
