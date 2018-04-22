@@ -16,7 +16,7 @@
 
     <div class="column">
       <img src="/images/snowplow1.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
-      <img src="/images/grass.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
+      <img src="/images/springmulch3.jpg" class="image-panel" onclick="openPopup(this)" alt="garden">
       <img src="/images/snowplow3.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
 
@@ -34,7 +34,7 @@
 
     <div class="column">
       <img src="/images/snowplow4.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/gardening2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/springmulch2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/flowersandgrass.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
   </div>
