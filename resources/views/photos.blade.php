@@ -21,7 +21,7 @@
     </div>
 
     <div class="column">
-      <img src="/images/lawnmower.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclctruck.png" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/snowplow5.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/grass3.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>

@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}" class="has-navbar-fixed-top">
     <head>
+      <link rel="prefetch" as="image" href="/images/snowplow2.jpg">
+      <link rel="prefetch" as="image" href="/images/grass3.jpg">
+      <link rel="prefetch" as="image" href="/images/grass4.jpg">
+      <link rel="prefetch" as="image" href="/images/qclctruck.png">
+      <link rel="prefetch" as="image" href="/images/snowplow1.jpg">
+      <link rel="prefetch" as="image" href="/images/qclcspringmulch3.jpg">
+      <link rel="prefetch" as="image" href="/images/snowplow3.jpg">
+      <link rel="prefetch" as="image" href="/images/qclctruck.png">
+      <link rel="prefetch" as="image" href="/images/snowplow5.jpg">
+      <link rel="prefetch" as="image" href="/images/grass3.jpg">
+      <link rel="prefetch" as="image" href="/images/snowplow2.jpg">
+      <link rel="prefetch" as="image" href="/images/drone.jpg">
+      <link rel="prefetch" as="image" href="/images/gardening.jpg">
+      <link rel="prefetch" as="image" href="/images/snowplow4.jpg">
+      <link rel="prefetch" as="image" href="/images/qclcspringmulch2.jpg">
+      <link rel="prefetch" as="image" href="/images/flowersandgrass.jpg">
+
+
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
