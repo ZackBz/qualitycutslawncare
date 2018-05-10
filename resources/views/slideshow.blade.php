@@ -12,7 +12,7 @@
     <img src="/images/logo-big-white.png" alt="quality cuts lawn care logo" id="logo">
   </div>
   <div class="slideshow hero is-fullheight">
-    <div class="slide-image hero-body" style="{{ image('qclctruckandtrailer.jpg') }}"></div>
+    <div class="slide-image hero-body" style="{{ image('grass.jpg') }}"></div>
     <div class="slide-image hero-body" style="{{ image('snowplow2.jpg') }}"></div>
 
     <div class="slide-image hero-body" style="{{ image('grass3.jpg') }}"></div>
