@@ -23,19 +23,25 @@
     <div class="column">
       <img src="/images/qclctruck.png" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/snowplow5.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/grass3.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclclawnmower.png" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
 
     <div class="column">
       <img src="/images/snowplow2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/gardening.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclctrim.png" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclctrim2.png" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
 
     <div class="column">
       <img src="/images/snowplow4.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/qclcspringmulch2.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/flowersandgrass.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclctrim3.png" class="image-panel" onclick="openPopup(this)" alt="grass">
+    </div>
+
+    <div class="column">
+      <img src="/images/qclctrim4.png" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclctrim5.png" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
   </div>
 

@@ -15,7 +15,7 @@
     <div class="slide-image hero-body" style="{{ image('qclctruck.png') }}"></div>
     <div class="slide-image hero-body" style="{{ image('snowplow2.jpg') }}"></div>
 
-    <div class="slide-image hero-body" style="{{ image('grass3.jpg') }}"></div>
+    <div class="slide-image hero-body" style="{{ image('qclclawnmower.png') }}"></div>
     <div class="slide-image hero-body" style="{{ image('grass4.jpg') }}"></div>
   </div>
 
