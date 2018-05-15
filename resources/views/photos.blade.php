@@ -43,6 +43,12 @@
       <img src="/images/qclctrim5.png" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
+
+    <div class="column">
+      <img src="/images/qclctrim6.png" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclctrim7.png" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/qclctrim8.png" class="image-panel" onclick="openPopup(this)" alt="grass">
+    </div>
   </div>
 
 <!-- if you see this you are hacker man -->
