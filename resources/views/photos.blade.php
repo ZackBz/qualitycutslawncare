@@ -41,7 +41,7 @@
     <div class="column">
       <img src="/images/qclctrim4.png" class="image-panel" onclick="openPopup(this)" alt="grass">
       <img src="/images/qclctrim5.png" class="image-panel" onclick="openPopup(this)" alt="grass">
-      <img src="/images/drone.jpg" class="image-panel" onclick="openPopup(this)" alt="grass">
+      <img src="/images/grass.png" class="image-panel" onclick="openPopup(this)" alt="grass">
     </div>
 
     <div class="column">
